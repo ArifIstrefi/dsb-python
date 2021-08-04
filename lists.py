@@ -1,0 +1,18 @@
+students = ["Agon", "Drilon", "Hysen"]
+print(students)
+students.append("Arbnor")
+print(students)
+students.remove("Agon")
+print(students)
+students.insert(2, "Dafina")
+print(students)
+students.pop()
+#del students
+#students.clear()
+print("------------")
+students2 = students.copy()
+students.append("Adriatik")
+students.reverse()
+print(len(students))
+print(students)
+print(students2)
